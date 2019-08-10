@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700,700i,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Poppins:400,500,600|Roboto:400,500,700&display=swap"
+        rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <script src="https://kit.fontawesome.com/8ca2a5c4a4.js"></script>
+
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+
+    <title>Perufire - Web</title>
+
+</head>
+
+<body>
+
+    <div class="navegacion">
+        <div class="contenedor">
+            <div class="principal-logo">
+                <img src="img/logofire.png" alt="">
+                <div class="text-logo">
+                    <span>PERUFIRE</span>
+                </div>
+            </div>
+            <nav class="mynav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#buscador">Buscador</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+            <span class="target"></span>
+        </div>
+    </div>
+
+    <div class="banner" id="inicio">
+        <div class="contenedor-original">
+            <div class="contenedor-banner">
+                <div class="informacion-banner">
+                    <p>Bienvenido al mejor control para tus proyectos</p>
+                    <span>Perufire se compromete a dar lo mejor para sus clientes, dando el mejor servicio, haciendoló
+                        desde la nube.
+                    </span>
+                    <div class="boton">
+                        <a class="boton-leer" href="#">Proximamente</a>
+                    </div>
+                </div>
+                <div class="imagen-banner">
+                    <img src="./img/compu-puerta.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="servicios" class="servicios">
+        <div class="contenedor-original">
+            <h2>¿Cuáles son nuestros servicios?</h2>
+            <div class="contenedor-servicios">
+                <div class="box-servicio">
+                    <i class="fa fa-lock"></i>
+                    <div class="box-info">
+                        <h3>Seguridad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+                <div class="box-servicio">
+                    <i class="fas fa-fire-alt"></i>
+                    <div class="box-info">
+                        <h3>Honestidad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+                <div class="box-servicio">
+                    <i class="fas fa-box-open"></i>
+                    <div class="box-info">
+                        <h3>Productos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+                <div class="box-servicio">
+                    <i class="fas fa-microphone"></i>
+                    <div class="box-info">
+                        <h3>Auditoria</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+                <div class="box-servicio">
+                    <i class="fas fa-microphone"></i>
+                    <div class="box-info">
+                        <h3>Eventos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+                <div class="box-servicio">
+                    <i class="fas fa-handshake"></i>
+                    <div class="box-info">
+                        <h3>Confianza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <div class="contenedor-original">
+            <div class="contenedor-nosotros">
+                <div class="img-nosotros">
+                    <img src="img/logotipo.png" alt="">
+                </div>
+                <div class="info-nosotros">
+                    <h2>Nosotros</h2>
+                    <p>Perufire Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima necessitatibus quidem
+                        nemo sapiente iure dolor, doloremque natus quae ratione repellendus. Aadipisicing elit. Minima
+                        necessitatibus quidem nemo sapiente iure dolor, doloremque natus quae ratione
+                        repellendus,consectetur adipisicing elit. Minima necessitatibus quidem nemo sapiente iure dolor,
+                        doloremque natus quae ratione repellendus. Aadipisicing elit. Minima necessitatibus quidem nemo
+                        sapiente iure dolor, doloremque natus quae ratione repellendus..</p>
+
+                    <div class="boton-nosotros">
+                        <button>Saber más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="buscador" class="buscador">
+        <div class="laboratorio">
+            <div class="contenedor-original">
+                <div class="contenedor-laboratorio">
+                    <div class="laboratorio-text laboratorio-ipad">
+                        <h4>Laboratorios asociados ...</h4>
+                    </div>
+                    <div class="laboratorio-img-intertek laboratorio-ipad">
+                        <img src="img/Interteklogo.png" alt="">
+                    </div>
+                    <div class="laboratorio-img-ul laboratorio-ipad">
+                        <img src="img/UL.png" alt="">
+                    </div>
+                    <div class="laboratorio-img-fm laboratorio-ipad">
+                        <img src="img/FMapproval.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="perufire-top">
+            <div class="contenedor-original">
+                <div class="info-top">
+                    <h4>Perufire es la mejor opcion en tus proyectos</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur nulla rem iste. Voluptas
+                        nostrum suscipit eligendi corporis dignissimos cupiditate dolore.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="perufire-buscador">
+            <div class="contenedor-original">
+                <div class="contenedor-buscador">
+                    <div class="info-buscador">
+                        <h4>Buscador Perufire+</h4>
+                        <div class="info-text-buscador">
+                            <h3>Busque por obras ...</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis repellendus
+                                debitis nesciunt est recusandae qui consequuntur commodi neque officia,nesciunt est
+                                recusandae qui consequuntur commodi neque officia</p>
+                        </div>
+                        <div class="info-text-buscador">
+                            <h3>Busque por productos ...</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis repellendus
+                                debitis nesciunt est recusandae qui consequuntur commodi neque officia,nesciunt est
+                                recusandae qui consequuntur commodi neque officia</p>
+                        </div>
+                        <div class="info-text-buscador">
+                            <h3>Busque por codigo ...</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis repellendus
+                                debitis nesciunt est recusandae qui consequuntur commodi neque officia,nesciunt est
+                                recusandae qui consequuntur commodi neque officia</p>
+                        </div>
+                    </div>
+                    <div class="info-img-buscador">
+                        <div class="img-buscador-perufire">
+                            <img src="img/buscador-img.png" alt="">
+                        </div>
+                        <div class="contenedor-img-buscador">
+                            <i class="fas fa-search"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquid, sed itaque
+                                ea perspiciatis repudiandae commodi iure voluptates natus totam.</p>
+                            <div class="link-boton">
+                                <button class="boton-buscar">Ir al buscador</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experiencia">
+        <div class="contenedor-original">
+            <div class="contenedor-experiencia">
+                <div class="img-experiencia">
+                    <img src="img/experiencia.png" alt="">
+                </div>
+                <div class="info-experiencia">
+                    <h4>Perufire tiene la experiencia que nuestros clientes necesitan para sus futuros proyectos</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore doloribus quisquam porro
+                        distinctio! Suscipit hic ex nemo modi, exercitationem porro accusantium, odit dolores natus
+                        rerum
+                        dolorem laborum excepturi sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="animate">
+        <div class="contenedor-original">
+            <div class="contenedor-animate">
+                <div class="info-animate">
+                    <h5>¿Qué esperas para unirte a nosotros?</h5>
+                    <p>Entra a la base de datos de Perufire, registrate y busca lo que deseas!</p>
+                </div>
+                <div class="link-boton">
+                    <button class="boton-buscar">Ir a Perufire+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="mapa" class="mapa">
+
+    </section>
+
+    <section id="contacto" class="contactenos">
+        <div class="contenedor-original">
+            <div class="contactar">
+                <h2>Contactenos</h2>
+                <p>Ponte en contacto con nosotros para el incluir el sistema PERUFIRE+ en tus proyectos</p>
+            </div>
+            <div class="contacto">
+                <div class="contenedor-formulario">
+                    <form method="post" class="formulario" id="formulario">
+                        <div class="campo">
+                            <input class="form-control" type="text" name="nombre" placeholder="Nombres completos"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <input class="form-control" type="email" name="email" placeholder="Correo Electronico"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <input class="form-control" type="text" name="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="campo">
+                            <input class="form-control" type="text" name="proyecto" placeholder="Nombre del proyecto"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <input class="form-control" type="text" name="direccion"
+                                placeholder="Dirección del proyecto" required>
+                        </div>
+                        <div class="campo">
+                            <input class="enviar" name="enviar" type="submit" value="enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="contenedor-original">
+            <div class="contenedor-footer">
+                <div class="service foot">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li>Seguridad</li>
+                    </ul>
+                    <ul>
+                        <li>Honestidad</li>
+                    </ul>
+                    <ul>
+                        <li>Productos</li>
+                    </ul>
+                    <ul>
+                        <li>Auditoria</li>
+                    </ul>
+                    <ul>
+                        <li>Confianza</li>
+                    </ul>
+                </div>
+                <div class="contact foot">
+                    <h4>Contacto</h4>
+                    <li><i class="fas fa-envelope"></i>asesoria@perufire,com</li>
+                    <li><i class="fas fa-mobile-alt"></i>947 122 769 / 01 6515857</li>
+                    <div class="sociales">
+                        <div class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="search" foot>
+                    <h4>¿Dónde nos puedes encontrar?</h4>
+                    <p>Calle Los Alisos</p>
+                    <p>Mz D LT 12</p>
+                    <p>Callao-Perú</p>
+                </div>
+            </div>
+            <div class="contenedor-borde">
+                <hr>
+            </div>
+            <div class="derechos-reservados">
+                <div class="logo">
+                    <div class="img">
+                        <img src="img/logofire.png" alt="">
+                    </div>
+                    <div class="text-logo">
+                        PERUFIRE
+                    </div>
+                </div>
+                <div class="copyright">
+                    © Todos los derechos reservados 2019
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <?php   
+    include('email.php') 
+    ?>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        var hamburger = document.querySelector(".hamburger")
+
+        hamburger.addEventListener('click', function () {
+            hamburger.classList.toggle('is-active')
+        })
+
+        $(document).ready(function () {
+
+            $('.hamburger').click(function () {
+                $('.hamburger').toggleClass('actived')
+                $('.mynav').toggleClass('actived')
+                $('.target').toggleClass('actived')
+            })
+
+            $('#formulario').submit(function (e) {
+                e.preventDefault();
+                Swal.fire(
+                    'Good job!',
+                    'You clicked the button!',
+                    'success'
+                )
+            })
+        })
+
+
+    </script>
+</body>
+
+</html>
