@@ -1,4 +1,4 @@
 # Perufire
 Sitio Oficial de Perufire
 
-https://rhaegarcode.github.io/perufire/img/perufire.png
+https://rhaegarcode.github.io/master/perufire/img/perufire.png
