@@ -1,10 +1,12 @@
 # Perufire
 Sitio Oficial de Perufire
 
-<h2>Herramientos para el diseño web<h2>
-// HTML5
-// CSS3
-// JAVASCRIPT
+<h2>Herramientos para el diseño web</h2>
+HTML5
+<br>
+CSS3
+<br>
+JAVASCRIPT
  <br>
  <br>
  <br>
