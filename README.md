@@ -1,4 +1,3 @@
 # Perufire
 Sitio Oficial de Perufire
-
-![Screenshot](perufire.png)
+ <p align="center"> <img src="img/perufire.png" width="350"/></p>
