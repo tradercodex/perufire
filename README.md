@@ -7,6 +7,8 @@ HTML5
 CSS3
 <br>
 JAVASCRIPT
+<br>
+PHOTOSHOP
  <br>
  <br>
  <br>
