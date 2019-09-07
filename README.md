@@ -2,7 +2,7 @@
 Sitio Oficial de Perufire
 
 <h2>Herramientos para el diseño web<h2>
-<p>Html5</p>
+<cite>Html5<cite>
 <p>Css3</p>
 <p>Javascript</p>
  <br>
