@@ -2,9 +2,9 @@
 Sitio Oficial de Perufire
 
 <h2>Herramientos para el diseño web<h2>
-<blockquote>Html5</blockquote>
-<blockquote>Css3</blockquote>
-<blockquote>Javascript</blockquote>
+// HTML5
+// CSS3
+// JAVASCRIPT
  <br>
  <br>
  <br>
