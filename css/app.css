@@ -7,7 +7,7 @@
 
 .contenedor {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1280px;
   padding-left: 15px;
   padding-right: 15px;
   display: -webkit-box;
@@ -22,9 +22,7 @@
 
 .contenedor-original {
   margin: 0 auto;
-  max-width: 1480px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1280px;
 }
 
 img {
@@ -76,7 +74,7 @@ img {
 }
 
 .navegacion .principal-logo .text-logo {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   margin-left: 10px;
   font-weight: 600;
   font-size: 24px;
@@ -107,7 +105,7 @@ img {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
-  font-family: 'Nunito';
+  font-family: 'Inter';
 }
 
 .mynav li.active a {
@@ -237,7 +235,7 @@ img {
 
 .contenedor-banner {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center
 }
 
@@ -258,6 +256,10 @@ img {
 
 .banner .informacion-banner .boton {
   margin-top: 50px;
+}
+
+.banner .imagen-banner > div {
+  width: 500px;
 }
 
 .banner .imagen-banner img {
@@ -354,13 +356,13 @@ img {
 
 .box-servicio .box-info h3 {
   color: #6A4586;
-  font-family: 'Nunito';
+  font-family: 'Inter';
   margin-bottom: 10px;
 }
 
 .box-servicio .box-info p {
   color: rgb(168, 168, 168);
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
 }
 
@@ -427,7 +429,7 @@ img {
 
 .contenedor-nosotros .info-nosotros p {
   color: rgb(168, 168, 168);
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
 }
 
@@ -494,7 +496,7 @@ img {
 }
 
 .contenedor-laboratorio .laboratorio-text h4{
-  font-family: 'Nunito';
+  font-family: 'Inter';
   color: #3F4042;
   margin-top: 20px;
   margin-left: 50px;
@@ -547,14 +549,14 @@ img {
 }
 
 .buscador .perufire-top .info-top h4{
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 28px;
   color: #fff;
   text-align: center;
 }
 
 .buscador .perufire-top .info-top p{
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 18px;
   color: #74658E;
   text-align: center;
@@ -596,14 +598,14 @@ img {
 }
 
 .contenedor-buscador .info-text-buscador h3 {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 20px;
   margin-top: 23px;
   margin-bottom: 10px;
 }
 
 .contenedor-buscador .info-text-buscador p {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
   color: #777777;
 }
@@ -636,7 +638,7 @@ img {
 }
 
 .info-img-buscador .contenedor-img-buscador p {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
   color: #777777;
 }
@@ -706,7 +708,7 @@ img {
 } 
 
 .contenedor-experiencia .info-experiencia p {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
   color: #777777;
   line-height: 30px;
@@ -756,7 +758,7 @@ img {
 }
 
 .animate .info-animate p {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
   color: #FFEBDB;
   line-height: 30px;
@@ -806,7 +808,7 @@ img {
 }
 
 .contactenos .contactar p {
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 15px;
   color: #777777;
   line-height: 30px;
@@ -838,7 +840,7 @@ img {
   padding: 10px;
   background: #fff;
   color: rgb(106, 106, 107);
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 14px;
   border: 1px solid #dbd6d6;
 }
@@ -1008,7 +1010,7 @@ footer {
 
 .derechos-reservados .logo .text-logo {
   color: #fff;
-  font-family: 'Nunito';
+  font-family: 'Inter';
   font-size: 20px;
   margin-left: 15px;
 }
